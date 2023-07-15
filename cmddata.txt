@@ -1,0 +1,124 @@
+PS C:\wpt\git_projects\MyWebsite> dir
+
+
+    Directory: C:\wpt\git_projects\MyWebsite
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        14-07-2023     12:30                css
+d-----        14-07-2023     12:30                js
+-a----        14-07-2023     12:32           1248 about.html
+-a----        15-07-2023     11:33            185 commands.txt
+-a----        14-07-2023     12:32           1248 contact.html
+-a----        14-07-2023     12:31           1248 index.html
+-a----        14-07-2023     12:32           1248 services.html
+
+
+PS C:\wpt\git_projects\MyWebsite> git add -A
+warning: in the working copy of 'css/bootstrap-grid.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'css/bootstrap-grid.min.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'css/bootstrap-grid.rtl.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'css/bootstrap-grid.rtl.min.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'css/bootstrap-reboot.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'css/bootstrap-reboot.min.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'css/bootstrap-reboot.rtl.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'css/bootstrap-reboot.rtl.min.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'css/bootstrap-utilities.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'css/bootstrap-utilities.min.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'css/bootstrap-utilities.rtl.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'css/bootstrap-utilities.rtl.min.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'css/bootstrap.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'css/bootstrap.min.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'css/bootstrap.rtl.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'css/bootstrap.rtl.min.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'js/bootstrap.bundle.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'js/bootstrap.bundle.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'js/bootstrap.esm.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'js/bootstrap.esm.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'js/bootstrap.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'js/bootstrap.min.js', LF will be replaced by CRLF the next time Git touches it
+PS C:\wpt\git_projects\MyWebsite> git commit -m "initial commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'OPS@DESKTOP-5LA40DN.(none)')
+PS C:\wpt\git_projects\MyWebsite> git config --global user.email "cdac@gmail.com" 
+PS C:\wpt\git_projects\MyWebsite> git config --global user.name "cdac user"
+PS C:\wpt\git_projects\MyWebsite> git user
+git: 'user' is not a git command. See 'git --help'.
+
+The most similar command is
+        subtree
+PS C:\wpt\git_projects\MyWebsite> git config user
+error: key does not contain a section: user
+PS C:\wpt\git_projects\MyWebsite> git commit -m "initial commit"
+[master (root-commit) 68c6afa] initial commit
+ 51 files changed, 58989 insertions(+)
+ create mode 100644 about.html
+ create mode 100644 commands.txt
+ create mode 100644 contact.html
+ create mode 100644 css/bootstrap-grid.css
+ create mode 100644 css/bootstrap-grid.css.map
+ create mode 100644 css/bootstrap-grid.min.css
+ create mode 100644 css/bootstrap-grid.min.css.map
+ create mode 100644 css/bootstrap-grid.rtl.css
+ create mode 100644 css/bootstrap-grid.rtl.css.map
+ create mode 100644 css/bootstrap-grid.rtl.min.css
+ create mode 100644 css/bootstrap-grid.rtl.min.css.map
+ create mode 100644 css/bootstrap-reboot.css
+ create mode 100644 css/bootstrap-reboot.css.map
+ create mode 100644 css/bootstrap-reboot.min.css
+ create mode 100644 css/bootstrap-reboot.min.css.map
+ create mode 100644 css/bootstrap-reboot.rtl.css
+ create mode 100644 css/bootstrap-reboot.rtl.css.map
+ create mode 100644 css/bootstrap-reboot.rtl.min.css
+ create mode 100644 css/bootstrap-reboot.rtl.min.css.map
+ create mode 100644 css/bootstrap-utilities.css
+ create mode 100644 css/bootstrap-utilities.css.map
+ create mode 100644 css/bootstrap-utilities.min.css
+ create mode 100644 css/bootstrap-utilities.min.css.map
+ create mode 100644 css/bootstrap-utilities.rtl.css
+ create mode 100644 css/bootstrap-utilities.rtl.css.map
+ create mode 100644 css/bootstrap-utilities.rtl.min.css
+ create mode 100644 css/bootstrap-utilities.rtl.min.css.map
+ create mode 100644 css/bootstrap.css
+ create mode 100644 css/bootstrap.css.map
+ create mode 100644 css/bootstrap.min.css
+ create mode 100644 css/bootstrap.min.css.map
+ create mode 100644 css/bootstrap.rtl.css
+ create mode 100644 css/bootstrap.rtl.css.map
+ create mode 100644 css/bootstrap.rtl.min.css
+ create mode 100644 css/bootstrap.rtl.min.css.map
+ create mode 100644 css/style.css
+ create mode 100644 index.html
+ create mode 100644 js/bootstrap.bundle.js
+ create mode 100644 js/bootstrap.bundle.js.map
+ create mode 100644 js/bootstrap.bundle.min.js
+ create mode 100644 js/bootstrap.bundle.min.js.map
+ create mode 100644 js/bootstrap.esm.js
+ create mode 100644 js/bootstrap.esm.js.map
+ create mode 100644 js/bootstrap.esm.min.js
+ create mode 100644 js/bootstrap.esm.min.js.map
+ create mode 100644 js/bootstrap.js
+ create mode 100644 js/bootstrap.js.map
+ create mode 100644 js/bootstrap.min.js
+ create mode 100644 js/bootstrap.min.js.map
+ create mode 100644 js/script.js
+ create mode 100644 services.html
+PS C:\wpt\git_projects\MyWebsite> git log
+commit 68c6afa4666e7e30139136a976fccb38b759cfec (HEAD -> master)
+Author: cdac user <cdac@gmail.com>
+Date:   Sat Jul 15 11:38:49 2023 +0530
+
+    initial commit
+PS C:\wpt\git_projects\MyWebsite>
